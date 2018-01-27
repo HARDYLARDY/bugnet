@@ -1,13 +1,13 @@
 ## BugNET
 [![Build status](https://ci.appveyor.com/api/projects/status/ror9c96krbd7knld?svg=true)](https://ci.appveyor.com/project/dubeaud/bugnet)
 
-BugNET is a free, open source issue tracking and project issue management solution for the ASP.NET platform.
+BugNET is a free, open source issue tracking and project issue management solution for the .NNET Core 2.0 MVC platform.
 
 ### More Information & Support
 
 To report issues use the github issue tracker.
 
-* Code Metrics - https://www.openhub.net/p/bugnet
+* Code Metrics - https://github.com/HARDYLARDY/bugnet
 
 ### Getting started
 
