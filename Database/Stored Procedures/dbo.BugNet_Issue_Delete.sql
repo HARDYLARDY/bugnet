@@ -1,0 +1,10 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+
+CREATE PROCEDURE [dbo].[BugNet_Issue_Delete]
+	@IssueId INT
+AS
+	UPDATE [BNIssues] SET Disabled = 1 WHERE IssueId = @IssueId;
+GO

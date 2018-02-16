@@ -1,0 +1,13 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+
+CREATE PROCEDURE [dbo].[BugNet_Languages_GetInstalledLanguages]
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	SELECT DISTINCT cultureCode FROM [BNLanguages];
+END;
+GO

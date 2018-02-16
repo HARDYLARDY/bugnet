@@ -1,0 +1,9 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+
+CREATE PROCEDURE [dbo].[BugNet_ApplicationLog_ClearLog]
+AS
+	DELETE FROM [BNApplicationLog];
+GO

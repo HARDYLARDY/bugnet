@@ -1,0 +1,15 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+
+CREATE PROCEDURE [dbo].[BugNet_Role_DeleteRole]
+	@RoleId INT
+AS
+	DELETE [BNRoles] WHERE RoleId = @RoleId;
+
+	IF @@RowCount > 0
+		RETURN 0;
+	ELSE
+		RETURN 1;
+GO

@@ -192,3 +192,6 @@ FakesAssemblies/
 /src/.vs/config/applicationhost.config
 /src/.vs/BugNET_WAP
 src/.vs
+Database/Views/dbo.BugNet_P*_CFV.sql
+Database/RedGate.ssc
+Database/Security/Users/WINCHESTER_Rob Moloney.sql
