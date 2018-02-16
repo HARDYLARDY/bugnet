@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugNET.Common", "BugNET.Common\BugNET.Common.csproj", "{DB19BF2D-E945-4F14-86E2-0E441CB2F36D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E5BD7047-0842-4BC6-9CAD-7940312B13C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugNET.Tests", "BugNET.Tests\BugNET.Tests.csproj", "{04DFE3CE-D9C2-4045-B19D-5E01194B700E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugNET.Website", "BugNET.Website\BugNET.Website.csproj", "{D26362F1-B321-4439-AB8C-E1EC63C24F90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugNET.WebsiteHelper", "BugNET.WebsiteHelper\BugNET.WebsiteHelper.csproj", "{5948D05D-E0AE-449F-B609-92B64156651A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugNET.WebsiteRazor", "BugNET.Website.RazorPages\BugNET.WebsiteRazor.csproj", "{F03BA22D-6DAA-450D-A5AE-651A8F0ACA1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB19BF2D-E945-4F14-86E2-0E441CB2F36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB19BF2D-E945-4F14-86E2-0E441CB2F36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB19BF2D-E945-4F14-86E2-0E441CB2F36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB19BF2D-E945-4F14-86E2-0E441CB2F36D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04DFE3CE-D9C2-4045-B19D-5E01194B700E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DFE3CE-D9C2-4045-B19D-5E01194B700E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DFE3CE-D9C2-4045-B19D-5E01194B700E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DFE3CE-D9C2-4045-B19D-5E01194B700E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D26362F1-B321-4439-AB8C-E1EC63C24F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26362F1-B321-4439-AB8C-E1EC63C24F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26362F1-B321-4439-AB8C-E1EC63C24F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26362F1-B321-4439-AB8C-E1EC63C24F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5948D05D-E0AE-449F-B609-92B64156651A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5948D05D-E0AE-449F-B609-92B64156651A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5948D05D-E0AE-449F-B609-92B64156651A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5948D05D-E0AE-449F-B609-92B64156651A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03BA22D-6DAA-450D-A5AE-651A8F0ACA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03BA22D-6DAA-450D-A5AE-651A8F0ACA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03BA22D-6DAA-450D-A5AE-651A8F0ACA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03BA22D-6DAA-450D-A5AE-651A8F0ACA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB19BF2D-E945-4F14-86E2-0E441CB2F36D} = {E5BD7047-0842-4BC6-9CAD-7940312B13C2}
+		{04DFE3CE-D9C2-4045-B19D-5E01194B700E} = {E5BD7047-0842-4BC6-9CAD-7940312B13C2}
+		{D26362F1-B321-4439-AB8C-E1EC63C24F90} = {E5BD7047-0842-4BC6-9CAD-7940312B13C2}
+		{5948D05D-E0AE-449F-B609-92B64156651A} = {E5BD7047-0842-4BC6-9CAD-7940312B13C2}
+		{F03BA22D-6DAA-450D-A5AE-651A8F0ACA1B} = {E5BD7047-0842-4BC6-9CAD-7940312B13C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A5F2519-CD0C-4EC0-8D1E-3EF0D1A4480F}
+	EndGlobalSection
+EndGlobal
